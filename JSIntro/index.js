@@ -12,6 +12,8 @@
         root.append(element);
         console.log(name);
     })
+
+    var _ = require('lodash');
     console.log(names);
 
 

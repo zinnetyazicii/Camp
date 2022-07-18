@@ -1,4 +1,6 @@
 body{
+    left: 50%;
+    position: relative;
     box-sizing: border-box;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -11,11 +13,16 @@ body{
     background-color: rgb(112, 112, 164);
 }
 p{
-    background-color: #fafafa;
+    background-color:  #143a2d ;
     padding: 20px;
     border-top: 15px;
     cursor: pointer;
 }
+
 p:nth-child(odd){
-    background-color: rgb(57, 187, 144);
+    background-color: #39bb90;
+}
+p:hover{
+    background-color: #fafafa;
+    cursor: pointer;
 }
