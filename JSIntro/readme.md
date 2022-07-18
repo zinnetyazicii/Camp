@@ -4,4 +4,5 @@ git reset --hard
 git add .
  git commit -a -m "comment"
  git config --global user.email "email"
+ git config --global user.name "username"
 
